@@ -1,0 +1,67 @@
+.cards-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+img {
+  width: 395px;
+  height: 269px;
+  border-radius: 24px;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inf1, .inf2 {
+  display: flex;
+  align-items: center;
+}
+
+.inf3 {
+  font-weight: bold;
+}
+
+.card {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+p {
+  padding: 0;
+  margin: 5px;
+}
+
+.superHost {
+  border: 1px solid #4F4F4F;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #4F4F4F;
+  padding: 5px;
+}
+
+.tb {
+  color: #828282;
+}
+
+.star {
+  color: rgba(235, 87, 87, 0.72);
+}
+
+@media only screen and (max-width: 600px) {
+  .stay {
+    margin-bottom: 30px;
+    width: 350px;
+
+  }
+
+  img {
+    width: 350px;
+    height: 238.35px;
+  }
+}
