@@ -20,7 +20,6 @@ const CardsContainer = () => {
 
   return (
     <div className="cards-container">
-      {/* Aqui está um exemplo de como você pode imprimir vários elementos de uma só vez. */}
       {data.map((el, i) => (
         <div className="card" key={i}>
           <div className="imgs-cads">
@@ -28,7 +27,7 @@ const CardsContainer = () => {
           </div>
           <div className="infos">
             <div className="inf1">
-              <p className="superHost">{el.superHost}SUPER HOST</p>
+              {el.superHost && <p className="superHost">SUPER HOST</p>}
               <p className="tb">
                 {el.type} {el.beds}
               </p>
