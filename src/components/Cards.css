@@ -1,7 +1,7 @@
 .cards-container {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 img {
@@ -50,7 +50,7 @@ p {
 }
 
 .star {
-  color: rgba(235, 87, 87, 0.72);
+  color: #EB5757;
 }
 
 @media only screen and (max-width: 600px) {
@@ -65,3 +65,4 @@ p {
     height: 238.35px;
   }
 }
+
