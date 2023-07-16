@@ -4,3 +4,7 @@
     align-items: center;
     padding: 40px 80px 0px 80px;
 }
+
+.bar-stays h1 {
+    font-weight: bold;
+}

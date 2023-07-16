@@ -4,14 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*=====Main source=====*/
     font-family: 'Montserrat', sans-serif;
-    /* Fuente principal */
+    /*=====Second source===== */
     font-family: 'Mulish', sans-serif;
-    /* Fuente secundaria */
 }
 
 body {
     min-height: 100vh;
 }
-
-
