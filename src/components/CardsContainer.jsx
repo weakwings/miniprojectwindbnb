@@ -21,7 +21,7 @@ const CardsContainer = () => {
   useEffect(() => {
     getData();
   }, []);
-  // JSON elements 
+  // JSON elements
   return (
     <div className="cards-container">
       {data.map((el, i) => (
