@@ -21,10 +21,22 @@
     margin-left: 10px;
 }
 
+.location {
+    padding-right: 20px;
+}
+
 .guest {
+    padding-right: 20px;
     color: #BDBDBD;
 }
 
 .search1 {
     color: #EB5757
+}
+
+@media (max-width: 768px) {
+  .location,
+  .guest {
+    display: none;
+  }
 }
