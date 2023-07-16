@@ -27,7 +27,7 @@ const CardsContainer = () => {
       {data.map((el, i) => (
         <div className="card" key={i}>
           <div className="imgs-cads">
-            <img src={el.photo} alt={`image-${i}`} />
+            <img className="imgs-box" src={el.photo} alt={`image-${i}`} />
           </div>
           <div className="infos">
             <div className="inf1">

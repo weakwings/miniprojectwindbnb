@@ -19,6 +19,7 @@
     cursor: pointer;
     background-color: #F2F2F2;
     border: none;
+    --bs-btn-active-bg: #F2F2F2;
 }
 
 .btn-primary:hover {
@@ -43,6 +44,16 @@
     color: #EB5757
 }
 
+.btn-secondary {
+    background-color: #EB5757;
+    --bs-btn-border-color: #EB5757;
+}
+
+.btn-secondary:hover {
+    background-color: #EB5757;
+    --bs-btn-hover-border-color: #EB5757;
+}
+
 /*=====Media=====*/
 @media (max-width: 768px) {
 
@@ -50,9 +61,4 @@
     .guest {
         display: none;
     }
-}
-
-/*=====Scraps=====*/
-:root {
-    --bs-btn-active-bg: #F2F2F2;
 }
