@@ -1,4 +1,4 @@
-
+/*=====Navbar=====*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -6,22 +6,31 @@
     padding: 40px 80px 40px 80px;
 }
 
+/*=====Logo=====*/
 .logo {
     width: 100px;
     height: auto;
     cursor: pointer;
 }
 
-.menu {
+/*=====Buttons=====*/
+.btn-primary {
     display: flex;
     cursor: pointer;
+    background-color: #F2F2F2;
+    border: none;
 }
 
-.menu div {
+.btn-primary:hover {
+    background-color: #F2F2F2;
+}
+
+.btn-primary div {
     margin-left: 10px;
 }
 
 .location {
+    color: #333333;
     padding-right: 20px;
 }
 
@@ -34,9 +43,16 @@
     color: #EB5757
 }
 
+/*=====Media=====*/
 @media (max-width: 768px) {
-  .location,
-  .guest {
-    display: none;
-  }
+
+    .location,
+    .guest {
+        display: none;
+    }
+}
+
+/*=====Scraps=====*/
+:root {
+    --bs-btn-active-bg: #F2F2F2;
 }
